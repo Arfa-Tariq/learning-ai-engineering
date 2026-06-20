@@ -41,6 +41,58 @@
 
 ---
 
+## ✅ Exercise 01: FastAPI – University Student Directory API
+
+**Status:** ✅ Complete  
+**Folder:** `exercises/01-fastapi-intro/`  
+**Date Completed:** June 2026
+
+### Milestones
+
+- [x] Setup FastAPI project structure
+- [x] Create GET / endpoint (service information)
+- [x] Create GET /student/{student_id} endpoint (path parameter)
+- [x] Create GET /search?name= endpoint (query parameter)
+- [x] Add Pydantic response models
+- [x] Add HTTPException error handling (404)
+- [x] Add parameter validation (min_length, ge, le)
+- [x] Test all endpoints via Swagger UI
+- [x] Write professional README documentation
+
+### What I Learned from Exercise 01
+
+**Technical:**
+- FastAPI application setup with `uvicorn`
+- Path parameters vs Query parameters (critical distinction)
+- Pydantic models for response validation
+- HTTPException for proper API error handling
+- Parameter validation with `Path()` and `Query()`
+- Automatic API documentation (Swagger/ReDoc)
+
+**Mistakes I Made:**
+- Confused Path and Query parameters (used Path for query parameter)
+- Hardcoded student ID instead of making it dynamic
+- Returned mock data instead of filtering search results
+- Forgot to handle "student not found" cases
+
+**Fixed:**
+- Used `Query(...)` for search endpoint (not `Path`)
+- Made student ID a dynamic path parameter
+- Implemented proper filtering in search
+- Added 404 error handling for missing students
+
+**Key Takeaway:**
+- Path parameters = identify a specific resource (`/student/101`)
+- Query parameters = filter or paginate results (`/search?name=john`)
+
+### Time Spent
+- Setup and environment: 10 minutes
+- Writing code: 25 minutes
+- Debugging and fixing: 15 minutes
+- Documentation: 20 minutes
+
+---
+
 ## Project 02: FastAPI Pokémon API (Planned)
 
 ### Milestones
@@ -76,7 +128,7 @@
 | Error Handling | - | ✅ | - |
 | Virtual Environments | ✅ | - | - |
 | Git/GitHub | ✅ | - | - |
-| FastAPI | - | - | - |
+| FastAPI | - | ✅ | - |
 | RAG | - | - | - |
 | LangChain | - | - | - |
 
