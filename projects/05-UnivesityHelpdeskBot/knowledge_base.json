@@ -1,0 +1,543 @@
+{
+  "about": {
+    "university_name": "NED University of Engineering & Technology",
+    "department": "Computer & Information Systems Engineering",
+    "established": "1921",
+    "mission": "To produce competent engineers and leaders through quality education and research.",
+    "vision": "To be a globally recognized institution for engineering excellence.",
+    "location": {
+      "address": "University Road, Karachi, Pakistan",
+      "city": "Karachi",
+      "province": "Sindh",
+      "country": "Pakistan"
+    },
+    "contact": {
+      "phone": "+92-21-12345678",
+      "email": "cis@neduet.edu.pk",
+      "website": "https://cis.neduet.edu.pk",
+      "registrar": "registrar@neduet.edu.pk",
+      "helpdesk": "helpdesk@neduet.edu.pk"
+    },
+    "accreditation": "Pakistan Engineering Council (PEC)",
+    "ranking": "Top engineering university in Pakistan (HEC Category: W4)"
+  },
+
+  "admissions": {
+    "undergraduate": {
+      "program": "BS Computer & Information Systems Engineering",
+      "duration": "4 years",
+      "eligibility": "FSc Pre-Engineering / A-Levels with Physics, Chemistry, Mathematics",
+      "minimum_marks": "60% in FSc or equivalent",
+      "entry_test": "NED Entry Test (mandatory)",
+      "interview": "Panel interview for shortlisted candidates",
+      "deadlines": {
+        "fall": "August 1, 2024",
+        "spring": "December 15, 2024"
+      },
+      "documents_required": [
+        "Application form",
+        "Academic transcripts",
+        "Recommendation letters (2)",
+        "Statement of purpose",
+        "CNIC/B-Form copy",
+        "Passport-sized photographs"
+      ],
+      "fee_structure": {
+        "tuition_per_semester": "PKR 95,000",
+        "admission_fee": "PKR 25,000 (one-time)",
+        "security_deposit": "PKR 10,000 (refundable)"
+      },
+      "scholarships": {
+        "merit_based": "Available for top 5% students",
+        "need_based": "Available for students with financial constraints",
+        "deadline": "July 15, 2024",
+        "application_portal": "https://student.neduet.edu.pk/scholarships"
+      }
+    },
+    "graduate": {
+      "ms": {
+        "program": "MS Computer & Information Systems Engineering",
+        "duration": "2 years (4 semesters)",
+        "eligibility": "BS in CIS/CS/SE or equivalent",
+        "minimum_cgpa": "2.5/4.0",
+        "entry_test": "GAT-General (minimum 50%) or GRE",
+        "deadlines": {
+          "fall": "July 15, 2024",
+          "spring": "November 15, 2024"
+        },
+        "specializations": [
+          "Artificial Intelligence",
+          "Data Science",
+          "Cybersecurity",
+          "Software Engineering",
+          "Computer Networks"
+        ],
+        "thesis": "Research thesis (6 credits) required",
+        "fee_structure": {
+          "tuition_per_semester": "PKR 120,000",
+          "admission_fee": "PKR 30,000 (one-time)"
+        }
+      },
+      "phd": {
+        "program": "PhD Computer & Information Systems Engineering",
+        "duration": "3-5 years (minimum 3 years)",
+        "eligibility": "MS in CIS/CS/SE or equivalent",
+        "minimum_cgpa": "3.0/4.0",
+        "entry_test": "GAT-Subject (minimum 60%) or GRE (minimum 300)",
+        "research_proposal": "Required (minimum 10 pages)",
+        "publications": "Minimum 1 publication in HEC recognized journal",
+        "fee_structure": {
+          "tuition_per_semester": "PKR 150,000",
+          "admission_fee": "PKR 35,000 (one-time)"
+        }
+      }
+    },
+    "international_students": {
+      "english_requirements": ["TOEFL iBT (minimum 70)", "IELTS (minimum 6.0)"],
+      "visa_support": "University provides visa assistance",
+      "deadline": "June 1 for Fall, October 15 for Spring",
+      "fee_structure": {
+        "tuition_per_semester": "USD 2,500",
+        "admission_fee": "USD 500 (one-time)"
+      }
+    }
+  },
+
+  "programs": {
+    "bs": {
+      "name": "BS Computer & Information Systems Engineering",
+      "duration": "4 years (8 semesters)",
+      "total_credits": 130,
+      "core_courses": [
+        {"code": "CIS-101", "title": "Programming Fundamentals", "credits": 3},
+        {"code": "CIS-102", "title": "Digital Logic Design", "credits": 3},
+        {"code": "CIS-201", "title": "Data Structures and Algorithms", "credits": 3},
+        {"code": "CIS-202", "title": "Computer Organization", "credits": 3},
+        {"code": "CIS-301", "title": "Database Systems", "credits": 3},
+        {"code": "CIS-302", "title": "Software Engineering", "credits": 3},
+        {"code": "CIS-401", "title": "Computer Networks", "credits": 3},
+        {"code": "CIS-402", "title": "Operating Systems", "credits": 3},
+        {"code": "CIS-403", "title": "Artificial Intelligence", "credits": 3},
+        {"code": "CIS-404", "title": "Cybersecurity Fundamentals", "credits": 3}
+      ],
+      "electives": [
+        {"code": "CIS-410", "title": "Machine Learning", "credits": 3},
+        {"code": "CIS-411", "title": "Data Science", "credits": 3},
+        {"code": "CIS-412", "title": "Cloud Computing", "credits": 3},
+        {"code": "CIS-413", "title": "Web Development", "credits": 3},
+        {"code": "CIS-414", "title": "Mobile App Development", "credits": 3},
+        {"code": "CIS-415", "title": "Internet of Things", "credits": 3}
+      ],
+      "final_year_project": {
+        "title": "CIS-490 Capstone Project",
+        "credits": 6,
+        "duration": "2 semesters",
+        "presentation": "Final defense with industry judges"
+      },
+      "internship": {
+        "duration": "6-8 weeks",
+        "timing": "Summer break (June-July)",
+        "company": "Approved companies only",
+        "report": "Internship report required"
+      }
+    },
+    "ms": {
+      "name": "MS Computer & Information Systems Engineering",
+      "duration": "2 years (4 semesters)",
+      "total_credits": 30,
+      "core_courses": [
+        {"code": "CIS-510", "title": "Advanced Algorithms", "credits": 3},
+        {"code": "CIS-511", "title": "Research Methodology", "credits": 3},
+        {"code": "CIS-512", "title": "Advanced Database Systems", "credits": 3}
+      ],
+      "electives": [
+        {"code": "CIS-520", "title": "Deep Learning", "credits": 3},
+        {"code": "CIS-521", "title": "Natural Language Processing", "credits": 3},
+        {"code": "CIS-522", "title": "Computer Vision", "credits": 3},
+        {"code": "CIS-523", "title": "Network Security", "credits": 3}
+      ],
+      "thesis": {
+        "credits": 6,
+        "supervisor": "Assigned based on research interests",
+        "defense": "Oral defense required"
+      }
+    },
+    "phd": {
+      "name": "PhD Computer & Information Systems Engineering",
+      "duration": "3-5 years",
+      "total_credits": 48,
+      "coursework": "18 credits (6 courses)",
+      "research": "30 credits",
+      "dissertation": "Final thesis defense",
+      "publication_requirement": "2 publications in HEC recognized journals"
+    }
+  },
+
+  "courses": {
+    "CIS-101": {
+      "title": "Programming Fundamentals",
+      "description": "Introduction to programming using Python. Basic data types, control structures, functions, arrays, file handling.",
+      "credit_hours": 3,
+      "prerequisites": "None",
+      "offered": "Fall, Spring",
+      "lab_hours": 2,
+      "assessment": "Quizzes (20%), Assignments (20%), Midterm (30%), Final (30%)"
+    },
+    "CIS-102": {
+      "title": "Digital Logic Design",
+      "description": "Number systems, Boolean algebra, logic gates, combinational and sequential circuits, basic computer organization.",
+      "credit_hours": 3,
+      "prerequisites": "None",
+      "offered": "Fall",
+      "lab_hours": 2,
+      "assessment": "Quizzes (15%), Assignments (25%), Midterm (30%), Final (30%)"
+    },
+    "CIS-201": {
+      "title": "Data Structures and Algorithms",
+      "description": "Arrays, linked lists, stacks, queues, trees, graphs. Sorting and searching algorithms.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-101",
+      "offered": "Fall, Spring",
+      "lab_hours": 2,
+      "assessment": "Quizzes (20%), Assignments (20%), Midterm (30%), Final (30%)"
+    },
+    "CIS-202": {
+      "title": "Computer Organization",
+      "description": "Computer architecture, memory hierarchy, instruction sets, I/O systems, basic assembly language.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-102",
+      "offered": "Fall, Spring",
+      "lab_hours": 2
+    },
+    "CIS-301": {
+      "title": "Database Systems",
+      "description": "Relational database design, SQL, normalization, transaction management, concurrency control.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-201",
+      "offered": "Fall, Spring",
+      "lab_hours": 2,
+      "assessment": "Quizzes (15%), Assignments (25%), Midterm (30%), Final (30%)"
+    },
+    "CIS-302": {
+      "title": "Software Engineering",
+      "description": "Software development lifecycle, requirements engineering, design patterns, testing, project management.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-201",
+      "offered": "Fall, Spring",
+      "group_project": true
+    },
+    "CIS-401": {
+      "title": "Computer Networks",
+      "description": "OSI model, TCP/IP, routing algorithms, network security basics, wireless networks.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-201",
+      "offered": "Fall",
+      "lab_hours": 2
+    },
+    "CIS-402": {
+      "title": "Operating Systems",
+      "description": "Process management, memory management, file systems, I/O systems, virtualization.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-202",
+      "offered": "Spring"
+    },
+    "CIS-403": {
+      "title": "Artificial Intelligence",
+      "description": "AI fundamentals, search algorithms, knowledge representation, reasoning, introduction to machine learning.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-201, MATH-201",
+      "offered": "Spring"
+    },
+    "CIS-404": {
+      "title": "Cybersecurity Fundamentals",
+      "description": "Cryptography, network security, ethical hacking, security policies, risk management.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-401",
+      "offered": "Spring"
+    },
+    "CIS-410": {
+      "title": "Machine Learning",
+      "description": "Supervised and unsupervised learning, regression, classification, clustering, neural networks.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-403, MATH-202",
+      "offered": "Fall",
+      "project": true
+    },
+    "CIS-411": {
+      "title": "Data Science",
+      "description": "Data preprocessing, exploratory data analysis, visualization, big data technologies.",
+      "credit_hours": 3,
+      "prerequisites": "CIS-301, MATH-202",
+      "offered": "Spring"
+    },
+    "CIS-490": {
+      "title": "Capstone Project",
+      "description": "Final year project integrating all CIS concepts. Industry collaboration encouraged.",
+      "credit_hours": 6,
+      "prerequisites": "Senior standing, CIS-301",
+      "offered": "Fall, Spring",
+      "duration": "2 semesters"
+    }
+  },
+
+  "faculty": {
+    "dr_ahmed_ali": {
+      "name": "Dr. Ahmed Ali",
+      "title": "Professor & Chairperson",
+      "department": "Computer & Information Systems Engineering",
+      "expertise": ["Artificial Intelligence", "Machine Learning", "Deep Learning"],
+      "education": "PhD (AI), Stanford University",
+      "office": "CIS Building, Room 101",
+      "office_hours": "Monday-Wednesday: 2 PM - 4 PM",
+      "email": "ahmed.ali@neduet.edu.pk",
+      "phone": "+92-21-12345678 ext. 101",
+      "research_interests": ["NLP", "Computer Vision", "Reinforcement Learning"]
+    },
+    "dr_sara_khan": {
+      "name": "Dr. Sara Khan",
+      "title": "Associate Professor",
+      "department": "Computer & Information Systems Engineering",
+      "expertise": ["Data Science", "Big Data Analytics", "Database Systems"],
+      "education": "PhD (Data Science), MIT",
+      "office": "CIS Building, Room 205",
+      "office_hours": "Tuesday-Thursday: 10 AM - 12 PM",
+      "email": "sara.khan@neduet.edu.pk",
+      "phone": "+92-21-12345678 ext. 205",
+      "research_interests": ["Data Mining", "Visualization", "Big Data Technologies"]
+    },
+    "dr_hassan_raza": {
+      "name": "Dr. Hassan Raza",
+      "title": "Assistant Professor",
+      "department": "Computer & Information Systems Engineering",
+      "expertise": ["Cybersecurity", "Network Security", "Cryptography"],
+      "education": "PhD (Cybersecurity), Oxford University",
+      "office": "CIS Building, Room 312",
+      "office_hours": "Monday-Wednesday: 3 PM - 5 PM",
+      "email": "hassan.raza@neduet.edu.pk",
+      "phone": "+92-21-12345678 ext. 312",
+      "research_interests": ["Network Security", "IoT Security", "Privacy-Preserving Technologies"]
+    },
+    "dr_fatima_noor": {
+      "name": "Dr. Fatima Noor",
+      "title": "Assistant Professor",
+      "department": "Computer & Information Systems Engineering",
+      "expertise": ["Software Engineering", "Requirements Engineering", "Agile Methodologies"],
+      "education": "PhD (Software Engineering), Cambridge University",
+      "office": "CIS Building, Room 408",
+      "office_hours": "Monday-Thursday: 11 AM - 1 PM",
+      "email": "fatima.noor@neduet.edu.pk",
+      "phone": "+92-21-12345678 ext. 408",
+      "research_interests": ["Requirements Engineering", "Software Testing", "DevOps"]
+    },
+    "dr_umar_malik": {
+      "name": "Dr. Umar Malik",
+      "title": "Assistant Professor",
+      "department": "Computer & Information Systems Engineering",
+      "expertise": ["Computer Networks", "Wireless Networks", "Internet of Things"],
+      "education": "PhD (Networks), NUST",
+      "office": "CIS Building, Room 306",
+      "office_hours": "Tuesday-Thursday: 2 PM - 4 PM",
+      "email": "umar.malik@neduet.edu.pk",
+      "phone": "+92-21-12345678 ext. 306",
+      "research_interests": ["IoT", "Wireless Communication", "Network Security"]
+    }
+  },
+
+  "labs": {
+    "ai_lab": {
+      "name": "Artificial Intelligence Research Lab",
+      "location": "CIS Building, Room 104",
+      "hours": "9 AM - 6 PM, Monday-Friday",
+      "facilities": {
+        "hardware": "GPU Servers (8x NVIDIA A100)",
+        "software": ["Python", "TensorFlow", "PyTorch", "Keras"],
+        "tools": ["Jupyter", "VS Code", "Git"]
+      },
+      "access": "CIS students with lab access card",
+      "capacity": 25,
+      "supervisor": "Dr. Ahmed Ali"
+    },
+    "networks_lab": {
+      "name": "Computer Networks Lab",
+      "location": "CIS Building, Room 203",
+      "hours": "8 AM - 10 PM, Monday-Friday, 10 AM - 6 PM Saturday",
+      "facilities": {
+        "hardware": ["Cisco Routers", "Switches", "Firewalls"],
+        "software": ["Cisco Packet Tracer", "Wireshark", "GNS3"]
+      },
+      "access": "CIS students with lab access card",
+      "capacity": 30,
+      "supervisor": "Dr. Umar Malik"
+    },
+    "software_lab": {
+      "name": "Software Engineering Lab",
+      "location": "CIS Building, Room 305",
+      "hours": "9 AM - 6 PM, Monday-Friday",
+      "facilities": {
+        "hardware": "Workstations (32GB RAM, 1TB SSD)",
+        "software": ["Visual Studio", "IntelliJ IDEA", "Jira", "GitLab"]
+      },
+      "access": "CIS students with lab access card",
+      "capacity": 35,
+      "supervisor": "Dr. Fatima Noor"
+    },
+    "database_lab": {
+      "name": "Database Lab",
+      "location": "CIS Building, Room 310",
+      "hours": "9 AM - 6 PM, Monday-Friday",
+      "facilities": {
+        "hardware": "Servers (64GB RAM, 2TB SSD)",
+        "software": ["SQL Server", "PostgreSQL", "MongoDB", "Redis"]
+      },
+      "access": "CIS students with lab access card",
+      "capacity": 25,
+      "supervisor": "Dr. Sara Khan"
+    }
+  },
+
+  "advising": {
+    "academic_advisor": {
+      "name": "Dr. Sara Khan",
+      "title": "Academic Advisor",
+      "contact": "sara.khan@neduet.edu.pk",
+      "office": "CIS Building, Room 205",
+      "advising_hours": "Monday-Wednesday: 2 PM - 4 PM, Thursday: 10 AM - 12 PM"
+    },
+    "degree_requirements": {
+      "bs": {
+        "total_credits": 130,
+        "core_courses": "22 courses (66 credits)",
+        "electives": "6 electives (18 credits)",
+        "final_year_project": "6 credits",
+        "internship": "Mandatory (summer break)",
+        "cgpa_required": "2.0/4.0 for graduation"
+      },
+      "ms": {
+        "total_credits": 30,
+        "core_courses": "3 courses (9 credits)",
+        "electives": "5 courses (15 credits)",
+        "thesis": "6 credits",
+        "cgpa_required": "3.0/4.0 for graduation"
+      },
+      "phd": {
+        "total_credits": 48,
+        "coursework": "18 credits",
+        "research": "30 credits",
+        "cgpa_required": "3.0/4.0 for continuation"
+      }
+    },
+    "registration": {
+      "semester_schedule": {
+        "fall": "August - December",
+        "spring": "January - May",
+        "summer": "June - July (optional)"
+      },
+      "add_drop_deadline": "First week of each semester",
+      "withdrawal_deadline": "After 8 weeks (with W grade)",
+      "late_registration_penalty": "PKR 5,000 after deadline"
+    },
+    "student_portal": {
+      "url": "https://student.neduet.edu.pk",
+      "features": ["Course registration", "Fee payment", "View grades", "Transcript requests"]
+    }
+  },
+
+  "events": {
+    "career_fair_2024": {
+      "name": "CIS Career Fair 2024",
+      "date": "March 15, 2024",
+      "time": "10:00 AM - 4:00 PM",
+      "location": "Student Union Ballroom",
+      "companies": 50,
+      "description": "Meet with 50+ tech companies hiring CIS students",
+      "registration": "https://events.neduet.edu.pk/career-fair-2024"
+    },
+    "hackathon_2024": {
+      "name": "CIS Hackathon 2024",
+      "date": "April 20-21, 2024",
+      "time": "9:00 AM (Day 1) - 9:00 PM (Day 2)",
+      "location": "CIS Building Atrium",
+      "prize_pool": "PKR 300,000",
+      "description": "24-hour coding competition with industry judges",
+      "registration_deadline": "April 15, 2024"
+    },
+    "guest_lecture_ai_ethics": {
+      "name": "Guest Lecture: AI Ethics and Responsible Innovation",
+      "date": "March 28, 2024",
+      "time": "2:00 PM - 4:00 PM",
+      "location": "CIS Building, Room 101",
+      "speaker": "Dr. Maria Garcia (Google AI Researcher)",
+      "description": "Discussion on ethical challenges in AI development"
+    },
+    "tech_talk_series": {
+      "name": "CIS Tech Talk Series",
+      "frequency": "Every Friday",
+      "time": "3:00 PM - 4:00 PM",
+      "location": "CIS Building Seminar Hall",
+      "topics": ["AI", "Cloud Computing", "Cybersecurity", "Data Science"]
+    }
+  },
+
+  "research": {
+    "areas": [
+      "Artificial Intelligence and Machine Learning",
+      "Data Science and Big Data",
+      "Cybersecurity and Network Security",
+      "Internet of Things (IoT)",
+      "Software Engineering and Architecture",
+      "Human-Computer Interaction",
+      "Natural Language Processing",
+      "Computer Vision"
+    ],
+    "research_groups": [
+      {
+        "name": "AI Research Group",
+        "lead": "Dr. Ahmed Ali",
+        "focus": "Deep Learning, NLP, Computer Vision",
+        "meetings": "Every Wednesday, 4 PM"
+      },
+      {
+        "name": "Cybersecurity Research Lab",
+        "lead": "Dr. Hassan Raza",
+        "focus": "Cryptography, Network Security, Ethical Hacking",
+        "meetings": "Every Tuesday, 3 PM"
+      },
+      {
+        "name": "Data Science Group",
+        "lead": "Dr. Sara Khan",
+        "focus": "Big Data Analytics, Data Mining, Visualization",
+        "meetings": "Every Thursday, 2 PM"
+      },
+      {
+        "name": "IoT and Networking Lab",
+        "lead": "Dr. Umar Malik",
+        "focus": "Wireless Networks, IoT Protocols, Sensor Networks",
+        "meetings": "Every Monday, 3 PM"
+      }
+    ],
+    "publications": [
+      "Faculty publish in international journals: IEEE, ACM, Elsevier",
+      "Conference papers: IJCAI, ICML, ACL, CVPR",
+      "Average publications per year: 20-25"
+    ],
+    "collaborations": [
+      "International: MIT, Oxford, Stanford",
+      "Local: NUST, GIKI, Karachi University",
+      "Industry: Google, Microsoft, Systems Limited"
+    ]
+  },
+
+  "general": {
+    "website": "https://cis.neduet.edu.pk",
+    "student_portal": "https://student.neduet.edu.pk",
+    "email": "cis@neduet.edu.pk",
+    "phone": "+92-21-12345678",
+    "location": "Main Campus, University Road, Karachi, Pakistan",
+    "hours": "8:00 AM - 6:00 PM, Monday-Friday",
+    "social_media": {
+      "facebook": "https://facebook.com/NEDCIS",
+      "linkedin": "https://linkedin.com/company/ned-cis",
+      "youtube": "https://youtube.com/NEDCIS"
+    }
+  }
+}
