@@ -5,6 +5,9 @@ A conversational helpdesk chatbot for the Computer & Information Systems Enginee
 > **Note:** The `knowledge_base.json` included in this project contains sample dummy data for demonstration purposes. Replace it with your department's real information before deploying.
 
 ---
+## Preview
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d4681ac9-9749-4850-9645-1ba5a27250a6" />
+
 
 ## Features
 
