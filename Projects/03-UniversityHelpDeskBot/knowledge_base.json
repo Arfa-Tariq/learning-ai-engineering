@@ -1,0 +1,73 @@
+{
+  "university": "NED University",
+  "department": "Computer & Information Systems Engineering (CIS)",
+  "location": "Karachi, Pakistan",
+  "contact": {
+    "phone": "+92-21-12345678",
+    "email": "cis@neduet.edu.pk",
+    "website": "https://cis.neduet.edu.pk",
+    "portal": "https://student.neduet.edu.pk"
+  },
+  "admissions": {
+    "bs": {
+      "duration": "4 years",
+      "eligibility": "FSc/A-Levels with 60% marks",
+      "test": "NED Entry Test (mandatory)",
+      "deadlines": { "fall": "Aug 1", "spring": "Dec 15" },
+      "tuition_per_semester": "PKR 95,000",
+      "scholarships": "Merit (top 5%) and need-based"
+    },
+    "ms": {
+      "duration": "2 years",
+      "eligibility": "BS in CIS/CS with CGPA 2.5+",
+      "test": "GAT-General (50%)",
+      "deadlines": { "fall": "July 15", "spring": "Nov 15" },
+      "tuition_per_semester": "PKR 120,000",
+      "specializations": ["AI", "Data Science", "Cybersecurity", "Software Eng"]
+    },
+    "phd": {
+      "duration": "3-5 years",
+      "eligibility": "MS with CGPA 3.0+",
+      "test": "GAT-Subject (60%)",
+      "tuition_per_semester": "PKR 150,000"
+    }
+  },
+  "programs": {
+    "bs_core_courses": [
+      "Programming Fundamentals",
+      "Digital Logic Design",
+      "Data Structures & Algorithms",
+      "Database Systems",
+      "Software Engineering",
+      "Computer Networks",
+      "Operating Systems",
+      "Artificial Intelligence",
+      "Cybersecurity"
+    ],
+    "bs_credits": 130,
+    "ms_credits": 30,
+    "phd_credits": 48
+  },
+  "faculty": {
+    "dr_ahmed_ali": { "title": "Professor & Chairperson", "expertise": "AI, Machine Learning" },
+    "dr_sara_khan": { "title": "Associate Professor", "expertise": "Data Science", "role": "Academic Advisor" },
+    "dr_hassan_raza": { "title": "Assistant Professor", "expertise": "Cybersecurity" },
+    "dr_umar_malik": { "title": "Assistant Professor", "expertise": "Networks & IoT" }
+  },
+  "labs": {
+    "ai_lab": { "supervisor": "Dr. Ahmed Ali", "hardware": "GPU servers" },
+    "networks_lab": { "supervisor": "Dr. Umar Malik", "hardware": "Cisco routers" },
+    "software_lab": { "supervisor": "Dr. Fatima Noor", "hardware": "Workstations" }
+  },
+  "key_dates": {
+    "career_fair": "March 15",
+    "hackathon": "April 20-21",
+    "tech_talks": "Every Friday 3 PM"
+  },
+  "bs_graduation_requirements": {
+    "credits": 130,
+    "min_cgpa": 2.0,
+    "internship": "6-8 weeks (summer)",
+    "capstone": "CIS-490 (6 credits, 2 semesters)"
+  }
+}
