@@ -8,7 +8,7 @@ A structured learning journey building projects from APIs to Agentic AI.
 
 Completed Projects:
 - Project 01: Pokémon CLI – API integration, JSON parsing, error handling
-  View: projects/01-pokemon-cli/
+  View: Projects/01-pokemon-cli/
 
 In Progress:
 - Project 02: FastAPI Pokémon API wrapper
@@ -27,20 +27,6 @@ Planned:
 - HTTP/REST APIs, JSON, Async programming
 - Virtual environments, Git/GitHub
 - Error handling, Unit testing, CI/CD
-
----
-
-## Repository Structure
-
-learning-ai-engineering/
-├── projects/
-│   ├── 01-pokemon-cli/     # Completed
-│   ├── 02-fastapi-pokemon/ # Planned
-│   └── 03-rag-basics/      # Planned
-├── common/                  # Shared utilities
-├── exercises/               # Debugging challenges
-├── .gitignore
-└── README.md
 
 ---
 
